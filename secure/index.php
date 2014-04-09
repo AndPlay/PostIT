@@ -29,10 +29,9 @@ if (isset($_GET['group'])) {
 <title><?=$title?></title>
 </head>
 <body>
-<div id="menu"><div class="menuentry"><a href="index.php?group=0" class="menulink">Domov</a></div><div class="menuentry"><a href="groups.php">Skupiny</a></div><div class="menuentry">Účet</div><div class="menuentry"><a href="#footer" class="menulink">Koniec</a></div></div>
+<div id="menu"><div class="menuentry"><a href="index.php?group=0" class="menulink">Domov</a></div><div class="menuentry"><a href="groups.php"  class="menulink">Skupiny</a></div><div class="menuentry">Účet</div><div class="menuentry"><a href="#footer" class="menulink">Koniec</a></div></div>
 <div id="main">
 <?php include 'posts.php'; ?>
-Vitaj na PostIT, prosím pridaj bezpečnostnú výnimku/potvrď nasledujúci certifikát. Certifikát je self-signed pretože nemám peniaze aby som zaplatil CA.
 </div>
 
 <div id="footer">
